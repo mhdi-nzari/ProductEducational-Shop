@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>سایت آموزشی برنامه نویسی و طراحی سایت</title>
+        <link rel="stylesheet" href="./library/BootStrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="./library/BootStrap/bootstrap-rtl.css" />
+        <link rel="stylesheet" href="./library/swiperjs/swiper.min.css" />
+        <link rel="stylesheet" href="./fonts/vazir.css" />
+        <link rel="stylesheet" href="./style/style.css" />
+    </head>
+    <body>
+        <!-- header 1 -->
+        <header class="container-fluid bg-navbar">
+            <div class="row">
+                <div class="navbar p-navbar navbar-expand-md col-12 px-3">
+                    <!-- logo yardeveloper -->
+                    <a href="#" class="navbar-brand">
+                        <img src="./img/logo.png" alt="logo..." class="logo" />
+                    </a>
+
+                    <!-- dropdown -->
+                    <button class="navbar-toggler bg-danger" data-toggle="collapse" data-target="#collapse-navbar">
+                        <img src="./img/menu.svg" class="icon" alt="menu ...">
+                    </button>
+
+                    <div class="collapse navbar-collapse mt-3 mt-md-0 medium font8 mr-25 text-light" id="collapse-navbar">
+                        <div class="navbar-nav list-unstyled d-md-flex p-0 m-0 justify-content-center align-items-center">
+                            <a href="#" class="nav-item nav-link navbar-li mb-3 mb-md-0">صفحه اصلی</a>
+                            <a class="dash d-none d-md-block bold"> | </a>
+                            <a href="#" class="nav-item nav-link navbar-li mb-3 mb-md-0">دوره ها</a>
+                            <a class="dash d-none d-md-block bold"> | </a>
+                            <a href="#" class="nav-item nav-link navbar-li mb-3 mb-md-0">وبلاگ</a>
+                            <a class="dash d-none d-md-block bold"> | </a>
+                            <a href="#" class="nav-item nav-link navbar-li mb-3 mb-md-0">معرفی مدرسین</a>
+                            <a class="dash d-none d-md-block bold"> | </a>
+                            <a href="#" class="nav-item nav-link navbar-li mb-3 mb-md-0">تخفیف ها</a>
+                        </div>
+                        <div class="mr-auto nav justify-content-center align-items-center flex-column flex-md-row">
+                            <a href="#" class="nav-item nav-link navbar-li mb-3 mb-md-0 join">عضویت</a>
+                            <span class="dash d-none d-md-inline bold mx-1"> / </span>
+                            <a href="#" class="nav-item nav-link navbar-li mb-3 mb-md-0 login">ورود</a>
+                        </div>
+                    </div>
+                    <!-- end navbar -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container fluid navbar -->
+        </header>
+
+        <!-- header 2 -->
+        <header class="container-fluid d-flex flex-column align-items-center text-white header2">
+            <p class="h2 medium title text-center">تخصص واقعی یاد بگیر، وارد بازارکار شو با یادگیری برنامه نویسی!</p>
+            <p class="medium title-sm">تخفیف ویژه برای همه دوره ها</p>
+            <form action="#" class="form">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center position-relative">
+                        <input type="text" class="form-control input" placeholder="چی میخوای یاد بگیری؟">
+                        <a href="#" class="btn bg-transparent font1 btn-search shadow-0">
+                            <img src="./img/search.svg" alt="search ..." class="search">
+                        </a>
+                        <!-- end input group -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end form -->
+            </form>
+            <!-- end header 2 -->
+        </header>
+
+        <!-- header 3 -->
+        <header class="container-fluid header3 text-white flex-column flex-lg-row">
+            <div class="container mycontainer">
+                <div class="row justify-content-center align-items-center flex-column flex-md-row">
+                    <div class="w-33 px-2 px-lg-3 d-flex justify-content-center align-items-center">
+                        <p class="header3-img-text">
+                            <span class="d-lg-block">دسترسی مادام العمر به دوره</span>
+                            گارانتی بازگشت وجه!
+                            </p>
+
+                        <img src="./img/3.png" alt="course..." class="img-fluid header3-img">
+                    </div>
+
+                    <div class="w-33 px-2 px-lg-3 d-flex justify-content-center align-items-center">
+                        <p class="header3-img-text">
+                            <span class="d-lg-block">دوره های متفاوت برنامه نویسی</span>
+                            دوره های همیشه آپدیت!
+                        </p>
+
+                        <img src="./img/2.png" alt="course..." class="img-fluid header3-img">
+                    </div>
+
+                    <div class="w-33 px-2 px-lg-3 d-flex justify-content-center align-items-center">
+                        <p class="header3-img-text">
+                            <span class="d-lg-block">آموزش های رایگان برنامه نویسی</span>
+                            مهارت پول ساز یاد بگیر!
+                        </p>
+
+                        <img src="./img/1.png" alt="course..." class="img-fluid header3-img">
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end container fluid -->
+        </header>
+
+        <!-- courses and texts -->
+        <div class="pattern bg-white">
+            <div class="pb-4">
+                <!-- cool courses list -->
+                <div class="container-fluid pt-4 pb-5">
+                    <div class="container mt-2 mb-1">
+                        <div class="row justify-content-center align-items-center">
+                            <p class="medium d-flex text-center align-items-center justify-content-between col-12 px-sm-0 mb-n5">
+                                <span class="title-cool-courses">دوره&zwnj;های پیشنهادی</span>
+                                <a href="#" class="text-primary btn-sm text text-cool-courses text-center">مشاهده همه دوره‌ها</a>
+                            </p>
+
+                            <div class="swiper-container col-12">
+                                <div class="swiper-wrapper">
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- end swiper-wrapper -->
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <!-- end swiper-container -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                    <!-- end container fluid -->
+                </div>
+
+                <!-- new courses list -->
+                <div class="container-fluid pt-4 pb-5 bg-light">
+                    <div class="container mt-3 mb-1">
+                        <div class="row justify-content-center align-items-center">
+                            <p class="medium d-flex text-center align-items-center justify-content-between col-12 px-sm-0 mb-n5">
+                                <span class="title-cool-courses mb-1">دوره&zwnj;های جدید</span>
+                                <a href="#" class="text-primary btn-sm text text-cool-courses text-center">مشاهده همه دوره‌ها</a>
+                            </p>
+
+                            <div class="swiper-container col-12">
+                                <div class="swiper-wrapper">
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">آموزش نود جی&zwnj;اس</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                <span class="price-dash medium">300</span>
+                                                100 تومان
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- end swiper-wrapper -->
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <!-- end swiper-container -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                    <!-- end container fluid -->
+                </div>
+
+                <!-- new texts list -->
+                <div class="container-fluid pt-4 pb-5">
+                    <div class="container mt-3 mb-1">
+                        <div class="row justify-content-center align-items-center">
+                            <p class="medium d-flex text-center align-items-center justify-content-between col-12 px-sm-0 mb-n5">
+                                <span class="title-cool-courses">مقاله ها</span>
+                                <a href="#" class="text-primary btn-sm text text-cool-courses text-center">مشاهده همه مقاله&zwnj;ها</a>
+                            </p>
+
+                            <div class="swiper-container col-12">
+                                <div class="swiper-wrapper">
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">نود جی&zwnj;اس چیست؟</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                بلند
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">نود جی&zwnj;اس چیست؟</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                کوتاه
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">نود جی&zwnj;اس چیست؟</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                کوتاه
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">نود جی&zwnj;اس چیست؟</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                کوتاه
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">نود جی&zwnj;اس چیست؟</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                کوتاه
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">نود جی&zwnj;اس چیست؟</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                کوتاه
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">نود جی&zwnj;اس چیست؟</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                کوتاه
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">نود جی&zwnj;اس چیست؟</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                کوتاه
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light swiper-slide">
+                                        <img class="card-img-top" src="./img/courses-nodejs.png" alt="course node.js ...">
+
+                                        <div class="card-body pb-2">
+                                            <a href="#" class="card-title h5 medium">نود جی&zwnj;اس چیست؟</a>
+                                            <p class="card-text pt-2 mt-1 mb-2 text-justify text text-muted">
+                                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                                            </p>
+                                            <img src="./img/stars.png" alt="stars" class="img-fluid">
+                                        </div>
+
+                                        <div class="card-footer d-flex justify-content-between text text-muted">
+                                            <span>مهدی نظری</span>
+                                            <span class="price bold">
+                                                کوتاه
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- end swiper-wrapper -->
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <!-- end swiper-container -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                    <!-- end container fluid -->
+                </div>
+                <!-- end pb-4 -->
+            </div>
+            <!-- end pattern -->
+        </div>
+
+        <!-- all footer -->
+        <footer class="container-fluid footer text-white">
+            <!-- footer-1 -->
+            <div class="footer-1">
+                <div class="container">
+                    <div class="row row-footer">
+                        <div class="col-12 mb-4 col-md-8 col-lg-5 ml-md-5">
+                            <p class="h5 medium">درباره یاردولوپر</p>
+                            <hr class="hr-footer">
+                            <p class="text-justify text text-footer light">
+                                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن ، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+                            </p>
+                        </div>
+
+                        <div class="col-12 mb-4 col-md-3 col-lg-2 ml-lg-5">
+                            <p class="h5 medium">بخش های دیگر</p>
+                            <hr class="hr-footer">
+                            <p class="text-justify text text-footer">
+                               <ul class="list-unstyled px-0 light text">
+                                   <li class="pb-2 mb-1"><a href="#" class="text-white">قوانین و مقررات</a></li>
+                                   <li class="pb-2 mb-1"><a href="#" class="text-white">تبلیغات</a></li>
+                                   <li class="pb-2 mb-1"><a href="#" class="text-white">مدرسان</a></li>
+                                   <li class="pb-2 mb-1"><a href="#" class="text-white">درباره تیم ما</a></li>
+                               </ul>
+                            </p>
+                        </div>
+
+                        <div class="col-12 col-lg">
+                            <p class="h5 medium">ارتباط با ما</p>
+                            <hr class="hr-footer">
+                            <p class="text-justify text text-footer">
+                               <ul class="list-unstyled px-0 light text">
+                                   <li class="pb-2 mb-1">شما میتوانید با استفاده از یکی از راه‌های زیر با ما ارتباط برقرار کنید</li>
+                                   <li class="pb-2 mb-1">
+                                       <img src="./img/email.svg" alt="email ..." class="icon" />
+                                       <span>ایمیل:</span>
+                                       <a href="https://gmail.com/mahdi.nazari.gb008@gmail.com" class="text-white medium">mahdi.nazari.gb008@gmail.com</a>
+                                   </li>
+                                   <li class="pb-2 mb-1">
+                                    <img src="./img/telegram.svg" alt="telegram ..." class="icon" />
+                                       <span>آیدی تلگرام:</span>
+                                       <a href="https://t.me/yardeveloper" class="text-white medium">mahdi-nazari</a>
+                                   </li>
+                               </ul>
+                            </p>
+                        </div>
+                        <!-- end row -->
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end footer-1 -->
+            </div>
+
+            <!-- footer-2 -->
+            <div class="footer-2">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center text-center flex-column flex-md-row">
+                        <p class="col-12 col-md-8 text-footer-2 text-right">کليه حقوق محصولات و محتوای اين سایت متعلق به سوداگری می باشد و هر گونه کپی برداری از محتوا و محصولات سایت غیر مجاز و بدون رضایت ماست.</p>
+                        <p class="col-12 col-md-4 text-left">
+                            <a href="#" class="pr-1" data-toggle="tooltip" title="telegram"><img src="./img/telegram.svg" alt="telegram ..." class="icon"></a>
+                            <a href="#" class="pr-1" data-toggle="tooltip" title="twitter"><img src="./img/twitter.svg" alt="twitter ..." class="icon"></a>
+                            <a href="#" class="pr-1" data-toggle="tooltip" title="rss"><img src="./img/rss.svg" alt="rss ..." class="icon"></a>
+                            <a href="#" class="pr-1" data-toggle="tooltip" title="instagram"><img src="./img/instagram.svg" alt="instagram ..." class="icon"></a>
+                            <a href="#" class="pr-1" data-toggle="tooltip" title="facebook"><img src="./img/facebook.svg" alt="facebook ..." class="icon"></a>
+                        </p>
+                        <!-- end row -->
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end footer-2 -->
+            </div>
+            <!-- end footer -->
+        </footer>
+    </body>
+    <script src="./library/BootStrap/jquery.min.js"></script>
+    <script src="./library/BootStrap/popper.min.js"></script>
+    <script src="./library/BootStrap/bootstrap.min.js"></script>
+    <script src="./library/swiperjs/swiper.min.js"></script>
+    <script>
+        $(function () {$('[data-toggle="tooltip"]').tooltip()});
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 40,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 60,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                },
+                1150: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+            }
+        });
+    </script>
+</html>
